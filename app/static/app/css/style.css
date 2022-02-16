@@ -1,0 +1,43 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.owl-carousel {
+  /* border: 1px solid black; */
+  
+}
+
+.owl-next {
+  float: right;
+}
+.owl-prev {
+  float: left;
+}
+.owl-prev span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.owl-next span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.bg-orange {
+  background-color: orange!important;
+}
+.banner_height {
+  height: 75vh;
+  object-fit: cover;
+}
+.products_img {
+  width: 170px !important;
+  height: 250px !important;
+ 
+  overflow: hidden;
+
+}
+.products_img>img{
+    transition: 0.5s linear all;
+}
+.products_img > img:hover {
+  transform: scale(1.2);
+}
